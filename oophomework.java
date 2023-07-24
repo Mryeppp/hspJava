@@ -231,5 +231,12 @@ class TestCale{
     }
 }
 
-//
-
+class HH{
+        public void sayhh(){
+            System.out.println("hh");
+        }
+        public static void main(String[] args) {
+            HH h = new HH();
+            h.sayhh();
+        }
+}
